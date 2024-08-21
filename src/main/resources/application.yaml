@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: canteen_connect
+
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:adminPass%40121@cluster0.ej1bgs4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: canteen_connect_db
+      auto-index-creation: true
+
+security:
+  jwt:
+    secret-key: 4e6e8405bb584b74de3ea81fa12f39a7c04168a725b7dd840d7f68215eadc360
+    expiration-time: 3600000
